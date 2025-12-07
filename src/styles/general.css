@@ -1,0 +1,29 @@
+.rowCard td {
+  position: relative;
+  z-index: 1;
+}
+
+.rowCard td::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--color);
+  opacity: 0.8;  
+  z-index: -1;
+}
+.rowCard:hover td {
+  background-color: #030303; 
+  opacity: 1;
+}
+
+.rowCard {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.rowCard:hover {
+  transform: translateY(-3px); 
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15); 
+}
