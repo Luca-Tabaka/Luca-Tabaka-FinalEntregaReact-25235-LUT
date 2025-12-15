@@ -27,6 +27,11 @@ export default function Footer() {
                   Vinos
                 </Link>
               </li>
+                <li>
+                <Link to="/categoria/Bebidas Espirituosas" className="text-light text-decoration-none">
+                  Espirituosas
+                </Link>
+              </li>
               <li>
                 <Link to="/categoria/Sin Alcohol" className="text-light text-decoration-none">
                   Sin Alcohol
