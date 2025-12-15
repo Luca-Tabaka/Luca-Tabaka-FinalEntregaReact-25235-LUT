@@ -1,24 +1,27 @@
 const categorias = [
-  "Cervezas",
-  "Vinos",
-  "Sin alcohol",
-  "Bebidas espirituosas"
+  "Cerveza",
+  "Vino",
+  "Sin Alcohol",
+  "Bebidas Espirituosas",
+  "Promos"
 ];
 
 const subcategorias = {
-  Cervezas: ["Lager", "Pilsen", "IPA", "APA", "Irish Red", "Porter", "Sin alcohol", "Roja", "Negra", "Artesanal"],
-  Vinos: ["Malbec", "Rosado", "Espumante", "Chardonnay", "Cabernet Sauvignon"],
-  SinAlcohol: ["Gaseosa", "Gaseosa sin azúcar", "Agua natural", "Agua con Gas", "Saborizadas", "Jugo concentrado", "Isotónico", "Energizante"],
-  BebidasEspirituosas: ["Vodka", "Gin", "Ron", "Whisky", "Tequila"]
+  Cerveza: ["Lager", "Pilsen", "IPA", "APA", "Irish Red", "Porter", "Sin alcohol", "Roja", "Negra", "Artesanal"],
+  Vino: ["Malbec", "Rosado", "Espumante", "Chardonnay", "Cabernet Sauvignon"],
+  "Sin Alcohol": ["Gaseosa", "Gaseosa sin azúcar", "Agua natural", "Agua con Gas", "Saborizadas", "Energizante"],
+  "Bebidas Espirituosas": ["Vodka", "Gin", "Whisky"],
+  Promos: ["Sin Alcohol", "Alcoholica"]
 };
 
 
 
 export const coloresCategorias = {
-  "Cervezas": "#e0bb42",            
-  "Vinos": "#c1121f",               
-  "Sin alcohol": "#4dabf7",         
-  "Bebidas espirituosas": "#9b4dca" 
+  "Cerveza": "#e0bb42",            
+  "Vino": "#c1121f",               
+  "Sin Alcohol": "#4dabf7",         
+  "Bebidas Espirituosas": "#9b4dca",
+  Promos: "#f77f00"
 };
 
 

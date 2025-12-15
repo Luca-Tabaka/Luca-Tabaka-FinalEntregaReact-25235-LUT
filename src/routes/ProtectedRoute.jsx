@@ -9,7 +9,7 @@ const RutaProtegida = ({ children, permiso }) => {
   if (!usuario) {
     return <Navigate to="/login" />;
   }
-if (permiso && usuario.permiso !== permiso) return <Navigate to="/" />;
+if (permiso && usuario.permiso !== permiso) return <Navigate to="/Home" />;
 
   //si esta todo correcto envia a la ruta deseada
   return children;

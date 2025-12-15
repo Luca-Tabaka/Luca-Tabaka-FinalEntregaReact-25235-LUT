@@ -1,4 +1,3 @@
-import React from "react";
 import { coloresCategorias } from "../../data/category"
 import "../../styles/general.css"
 const ProductRow = ({ producto, onEdit, onDelete }) => {

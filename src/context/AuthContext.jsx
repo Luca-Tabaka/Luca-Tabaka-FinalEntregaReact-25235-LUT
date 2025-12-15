@@ -4,7 +4,11 @@ import usuarios from '../data/usuarios.js';
 const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {
-  const [usuario, setUsuario] = useState(null);
+  const [usuario, setUsuario] = useState(() => {
+  const usuarioGuardado = localStorage.getItem('usuario');
+  return usuarioGuardado ? JSON.parse(usuarioGuardado) : null;
+});
+
   
     useEffect(() => {
      const usuarioGuardado = localStorage.getItem('usuario');
@@ -32,6 +36,7 @@ export const AuthProvider = ({ children }) => {
     const logout = () => {
         setUsuario(null);
         localStorage.removeItem('usuario');
+        
     };
 return (
     <AuthContext.Provider value={{ usuario, login, logout }}>

@@ -1,4 +1,3 @@
-import React from "react";
 import ProductRow from "./ProductRow";
 import ProductCard from "./ProductCard";
 import { Table } from "react-bootstrap";
