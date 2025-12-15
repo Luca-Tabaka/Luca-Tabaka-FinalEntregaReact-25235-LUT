@@ -15,14 +15,14 @@ La aplicacion permite el inicio de sesion con dos tipos de usuario:
 
 admin: este usuario tiene la capacidad de acceder al crud de productos ademas de poder simular compras
 
-para acceder por admin:
-Usuario: admin (minusculas)
+para acceder por admin: <br />
+Usuario: admin (minusculas)<br />
 Contraseña: admin (minusculas)
 
 Cliente: el cliente solo tiene la capacidad de comprar productos, si se trata de realizar la compra sin haber iniciado sesion, se redirige al login.
 
-para acceder por cliente:
-Usuario: cliente (minusculas)
+para acceder por cliente:<br />
+Usuario: cliente (minusculas)<br />
 Contraseña: 1234 (minusculas)
 
 Uso:
